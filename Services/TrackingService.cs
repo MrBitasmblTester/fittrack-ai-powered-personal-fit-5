@@ -1,0 +1,1 @@
+using System.Threading.Tasks; public class TrackingService { public Task<bool> StoreAsync(string userId, object metric) => Task.FromResult(true); }
