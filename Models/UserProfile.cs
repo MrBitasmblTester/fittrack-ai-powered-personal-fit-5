@@ -1,0 +1,1 @@
+public class UserProfile { public string UserId { get; set; } public string Goal { get; set; } public int Age { get; set; } }
