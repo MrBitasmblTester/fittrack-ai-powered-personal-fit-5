@@ -1,0 +1,1 @@
+public class PlanRequest { public string UserId { get; set; } public object Profile { get; set; } }
