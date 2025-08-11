@@ -1,0 +1,1 @@
+using Microsoft.AspNetCore.Mvc; [ApiController][Route("api/plans")] public class PlansController : ControllerBase { [HttpPost] public IActionResult Create([FromBody] object req) => Ok(new { id = "stub" }); }
