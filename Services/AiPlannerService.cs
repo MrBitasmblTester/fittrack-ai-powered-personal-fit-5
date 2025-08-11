@@ -1,0 +1,1 @@
+using System.Threading.Tasks; public class AiPlannerService : IAiPlannerService { public Task<string> GeneratePlanAsync(string userId, object profile) => Task.FromResult("{\"plan\":\"stub\"}"); }
