@@ -1,0 +1,1 @@
+using System.Threading.Tasks; public interface IAiPlannerService { Task<string> GeneratePlanAsync(string userId, object profile); }
