@@ -1,0 +1,1 @@
+using Microsoft.AspNetCore.SignalR; public class TrackingHub : Hub { public Task SendMetric(string userId, object metric) => Clients.Group(userId).SendAsync("metric", metric); }
